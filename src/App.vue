@@ -1,21 +1,5 @@
 <script setup>
-    const title = "Vue Js 3"
-    const subtitle = "Start vue js 3 with project live";
-
-    const data = {
-      title: "Vue Js 3",
-      heading: "Start vue js course with Raju vai",
-      date: () => {
-        const date = new Date();
-        return date.toDateString();
-      },
-      task:[1,2,3,4,5]
-    }
-
-    function getDate(){
-      const date = new Date();
-      return date.toDateString();
-    }
+   import {data} from "./data/data"
 </script>
 
 <template>
