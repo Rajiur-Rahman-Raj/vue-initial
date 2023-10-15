@@ -1,6 +1,6 @@
 <script setup>
     const title = "Vue Js 3"
-    const subtitle = "Start vue js 3 with project";
+    const subtitle = "Start vue js 3 with project live";
 
     function getDate(){
       const date = new Date();
